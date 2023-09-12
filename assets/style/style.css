@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../img/pexels-2.jpg");
+    background-size: cover;
+}
+
+/* div qui englobe le tout barre + bouton */
+.search-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    /* pour un centrage auto */
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* div qui englobe les 3 élements : loupe + texte + bouton*/
+.search-bar {
+    background-color: white;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0.2rem;
+}
+
+/* icone de la loupe */
+.search-icon {
+    color: blue;
+    font-size: 1.2rem;
+    margin: 0 0.54rem;
+}
+
+/* input text */
+.search-text {
+    width: 40rem;
+    height: 1.6rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/* bouton rechercher */
+.search-button {
+    color: white;
+    font-size: 1.2rem;
+    background-color: #44A33D;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+/* bouton permettant d'afficher toutes les formations */
+.show-formations {
+    color: white;
+    margin: 1rem 0;
+    ;
+    font-size: 1.2rem;
+    background-color: #44A33D;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+/* div qui contient le bouton montrer toutes les formations */
+.formations {
+    text-align: center;
+}

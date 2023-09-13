@@ -11,7 +11,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     width: 60%;
     /* pour un centrage auto */
-    margin: 0 auto;
+    margin: 1rem auto;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -60,4 +60,19 @@ body {
 /* div qui contient le bouton montrer toutes les formations */
 .formations {
     text-align: center;
+}
+
+.container {
+    border: 2px solid yellow;
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offre {
+    border: 2px solid white;
+    width: 30%;
+    background-color: white;
 }
